@@ -1,1 +1,43 @@
 /* Styles for the Advanced Markup assignment. */
+
+ul[class$=nav]  {
+  list-style-type: none;
+  background-color: #333333;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul[class$=nav] > li {
+  float:left;
+}
+
+ul[class$=nav] > li a {
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 1em;
+}
+
+ul[class$=nav] > li a:hover {
+ background-color:#555555; 
+}
+
+aside#sidebar {
+  float: right;
+}
+
+ul.poem {
+  list-style-type: none;
+  font-family: "Arial Black";
+}
+
+p.bio-photo {
+  text-decoration: overline;
+  color: orange;
+}
+
+a.active {
+  text-shadow: 3px 3px #999999;
+}
